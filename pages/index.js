@@ -22,15 +22,10 @@ export default function Home() {
         <h2 className="text-3xl font-bold text-center mb-10">Featured Works by Ryan West</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <div className="bg-white/10 rounded-2xl p-4 shadow-lg backdrop-blur-lg">
-            <Image src="/images/web_IMG_4910.jpg" alt="Monkey Warrior" width={600} height={800} className="rounded-xl w-full object-cover" />
-            <p className="mt-2 text-center font-semibold">"Monkey Warrior"</p>
-          </div>
-          <div className="bg-white/10 rounded-2xl p-4 shadow-lg backdrop-blur-lg">
-            <Image src="/images/web_IMG_4911.jpg" alt="Green Demon Grin" width={600} height={800} className="rounded-xl w-full object-cover" />
-            <p className="mt-2 text-center font-semibold">"Green Demon Grin"</p>
-          </div>
-          <div className="bg-white/10 rounded-2xl p-4 shadow-lg backdrop-blur-lg">
-            <Image src="/images/web_IMG_4912.jpg" alt="Muscle Bunny Fury" width={600} height={800} className="rounded-xl w-full object-cover" />
+            <Image src="/images/IMG_4910.jpg" ... />
+<Image src="/images/IMG_4911.jpg" ... />
+<Image src="/images/IMG_4912.jpg" ... />
+ className="rounded-xl w-full object-cover" />
             <p className="mt-2 text-center font-semibold">"Muscle Bunny Fury"</p>
           </div>
         </div>
