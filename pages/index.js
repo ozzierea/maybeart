@@ -22,7 +22,7 @@ export default function Home() {
         <h2 className="text-3xl font-bold text-center mb-10">Featured Works by Ryan West</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <div className="bg-white/10 rounded-2xl p-4 shadow-lg backdrop-blur-lg">
-            <Image src="/images/IMG_4910.jpg" ... />
+            <Image src="/ /IMG_4910.jpg" ... />
 <Image src="/images/IMG_4911.jpg" ... />
 <Image src="/images/IMG_4912.jpg" ... />
  className="rounded-xl w-full object-cover" />
@@ -47,4 +47,20 @@ export default function Home() {
       </footer>
     </main>
   );
+}import Image from 'next/image'
+
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-black flex items-center justify-center">
+      <Image 
+        src="/maybeart-home.jpg" 
+        alt="MaybeArt Homepage" 
+        width={1920} 
+        height={1080} 
+        className="w-full h-auto object-contain"
+        priority 
+      />
+    </main>
+  )
 }
+
