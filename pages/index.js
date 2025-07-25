@@ -79,3 +79,25 @@ export default function Home() {
     </div>
   );
 }
+import Head from 'next/head';
+import Image from 'next/image';
+
+export default function Home() {
+  return (
+    <>
+      <Head>
+        <title>MAYBEART | Where Art Meets Blockchain</title>
+      </Head>
+      <div className="min-h-screen w-full relative">
+        <Image
+          src="/maybeart-home.jpg"
+          alt="MaybeArt Homepage"
+          layout="fill"
+          objectFit="cover"
+          quality={100}
+          priority
+        />
+      </div>
+    </>
+  );
+}
