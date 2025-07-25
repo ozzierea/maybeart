@@ -63,4 +63,19 @@ export default function Home() {
     </main>
   )
 }
-
+export default function Home() {
+  return (
+    <div style={{ height: '100vh', width: '100vw', overflow: 'hidden' }}>
+      <img
+        src="/maybeart-home.jpg"
+        alt="MAYBEART Homepage"
+        style={{
+          objectFit: 'cover',
+          width: '100%',
+          height: '100%',
+          display: 'block',
+        }}
+      />
+    </div>
+  );
+}
